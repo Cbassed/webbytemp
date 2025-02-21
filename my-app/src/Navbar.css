@@ -1,0 +1,10 @@
+/* thsic onnects to the navbar js where you can change the lettering color etc */
+.navbar {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
