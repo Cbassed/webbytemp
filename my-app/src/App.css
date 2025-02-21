@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background 1s ease-in-out;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.signup-btn {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.signup-btn:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(1.05);
+}
+
+.nav-buttons {
+  margin-top: 20px;
+}
+
+.nav-btn {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-btn:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+}
